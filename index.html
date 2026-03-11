@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nirmal Singh - Portfolio</title>
+    <title>Nirmal Singh | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
     <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="container">
-            <div class="nav-logo">
-                <a href="#home">Nirmal<span>.</span></a>
-            </div>
-            <div class="nav-menu" id="navMenu">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#portfolio" class="nav-link">Portfolio</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
+    <nav class="navbar">
+        <div class="nav-container container">
+            <a href="#home" class="nav-logo">Nirmal Singh</a>
+                       <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html" class="nav-link active">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="experience.html" class="nav-link">Experience</a></li>
+                        <li><a href="skills.html" class="nav-link">Skills</a></li>
+                        <li><a href="projects.html" class="nav-link">Projects</a></li>
+                        <li><a href="contacts.html" class="nav-link">Contact</a></li>
+                      </ul>
             <div class="hamburger" id="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -30,95 +35,116 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero-section" id="home">
-        <div class="hero-background">
+    <section id="home" class="hero-section">
+        <div class="floating-shapes">
             <div class="shape shape-1"></div>
             <div class="shape shape-2"></div>
             <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
         </div>
-        <div class="container">
-            <div class="hero-content fade-in">
-                <h1 class="hero-title">Hi, I'm <span>Nirmal Singh</span></h1>
-                <p class="hero-subtitle">Full Stack Developer & UI/UX Designer</p>
-                <div class="hero-buttons">
-                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
-                </div>
+        <div class="hero-content container">
+            <h1 class="hero-title">Nirmal Singh</h1>
+            <h2 class="hero-subtitle">Computer Lab Incharge & Network Specialist</h2>
+            <p class="hero-description">With 2+ years of experience in data management, network administration, and creative design</p>
+            <div class="hero-buttons">
+                <a href="contacts.html" class="btn btn-primary">Get In Touch</a>
+                <a href="projects.html" class="btn btn-secondary">View Projects</a>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/nirmxl___?igsh=MTg3cHlta2N4b2p1NQ==" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/LegitNirmxl" class="social-link"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="about-section" id="about">
+<!--    <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title fade-in">About Me</h2>
-            <p class="section-subtitle fade-in">Learn more about my background and expertise</p>
-            
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Dedicated Computer Lab Incharge and Network Specialist with over 2 years of experience in data management and network administration.</p>
             <div class="about-content">
-                <div class="about-image fade-in">
-                    <div class="image-container">
-                        <img src="E:\website Portfolio\1-main\images\myself.jpeg" alt="Nirmal Singh" class="profile-pic">
+            
+                    <div class="about-image">
+                        <div class="image-container">
+                            <img src="images\myself.jpeg" alt="Nirmal Singh" class="profile-pic">
+                         </div>
                     </div>
+                      
+                 </div>
                 </div>
-                
-                <div class="about-text fade-in">
-                    <h3 class="about-title">Professional Background</h3>
-                    <p class="about-subtitle">Full Stack Developer & UI/UX Designer</p>
-                    <p class="about-description">
-                        I'm a passionate developer with 5+ years of experience in creating beautiful, 
-                        functional web applications. I specialize in modern JavaScript frameworks, 
-                        responsive design, and creating exceptional user experiences.
-                    </p>
-                    
+                <div class="about-text">
+                    <p class="about-description">Dedicated Computer Lab Incharge and Network Specialist with over 2 years of experience in data management and network administration. Passionate about leveraging technology to solve complex problems and improve operational efficiency.</p>
                     <div class="about-highlights">
                         <div class="highlight-item">
                             <i class="fas fa-check-circle"></i>
-                            <span>5+ Years Experience</span>
+                            <span>2+ Years Experience</span>
                         </div>
                         <div class="highlight-item">
                             <i class="fas fa-check-circle"></i>
-                            <span>50+ Projects Completed</span>
+                            <span>Computer Lab Incharge</span>
                         </div>
                         <div class="highlight-item">
                             <i class="fas fa-check-circle"></i>
-                            <span>Remote Available</span>
+                            <span>Network Administration</span>
                         </div>
                         <div class="highlight-item">
                             <i class="fas fa-check-circle"></i>
-                            <span>Problem Solver</span>
+                            <span>Data Management</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
+   -->
 
-    <!-- Skills Section -->
-    <section class="skills-section" id="skills">
+    <!-- Experience Section 
+    <section id="experience" class="section">
         <div class="container">
-            <h2 class="section-title fade-in">My Skills</h2>
-            <p class="section-subtitle fade-in">Technologies I work with</p>
-            
-            <div class="skills-grid">
-                <div class="skill-category fade-in">
-                    <div class="skill-icon">
-                        <i class="fas fa-code"></i>
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - Present</div>
+                        <h3 class="timeline-title">Computer Lab Incharge</h3>
+                        <div class="timeline-company">Universal College & ITI Patran<br>Chanda colony Patran, Patiala, Punjab, 147105</div>
+                        <ul class="timeline-description">
+                            <li>Manage computer lab hardware and software infrastructure.</li>
+                            <li>Configure and troubleshoot network connections.</li>
+                            <li>Provide technical support to students and faculty.</li>
+                            <li>Maintain lab equipment and ensure optimal performance.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Network Admin</span>
+                            <span class="tag">IT Support</span>
+                            <span class="tag">Lab Management</span>
+                        </div>
                     </div>
-                    <h3 class="skill-category-title">Frontend Development</h3>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Skills Section 
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-category-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="skill-category-title">Network Administration</h3>
                     <div class="skill-items">
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span class="skill-name">HTML/CSS</span>
-                                <span class="skill-level">95%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">JavaScript</span>
-                                <span class="skill-level">90%</span>
+                                <span class="skill-name">Network Configuration</span>
+                                <span class="skill-level">Advanced</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 90%"></div>
@@ -126,8 +152,8 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span class="skill-name">React</span>
-                                <span class="skill-level">85%</span>
+                                <span class="skill-name">Troubleshooting</span>
+                                <span class="skill-level">Advanced</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 85%"></div>
@@ -135,195 +161,133 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="skill-category fade-in">
-                    <div class="skill-icon">
-                        <i class="fas fa-server"></i>
+                <div class="skill-category">
+                    <div class="skill-category-icon">
+                        <i class="fas fa-desktop"></i>
                     </div>
-                    <h3 class="skill-category-title">Backend Development</h3>
+                    <h3 class="skill-category-title">Technical Skills</h3>
                     <div class="skill-items">
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span class="skill-name">Node.js</span>
-                                <span class="skill-level">85%</span>
+                                <span class="skill-name">Hardware Management</span>
+                                <span class="skill-level">Expert</span>
                             </div>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
+                                <div class="skill-progress" style="width: 95%"></div>
                             </div>
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span class="skill-name">Python</span>
-                                <span class="skill-level">80%</span>
+                                <span class="skill-name">Software Installation</span>
+                                <span class="skill-level">Advanced</span>
                             </div>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
+                                <div class="skill-progress" style="width: 90%"></div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="skill-category-title">Creative Design</h3>
+                    <div class="skill-items">
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span class="skill-name">MongoDB</span>
-                                <span class="skill-level">75%</span>
+                                <span class="skill-name">Graphic Design</span>
+                                <span class="skill-level">Intermediate</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 75%"></div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="skill-category fade-in">
-                    <div class="skill-icon">
-                        <i class="fas fa-paint-brush"></i>
-                    </div>
-                    <h3 class="skill-category-title">Design Tools</h3>
-                    <div class="skill-tags">
-                        <span>Figma</span>
-                        <span>Adobe XD</span>
-                        <span>Photoshop</span>
-                        <span>Illustrator</span>
-                        <span>Sketch</span>
-                        <span>Canva</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section class="portfolio-section" id="portfolio">
-        <div class="container">
-            <h2 class="section-title fade-in">My Portfolio</h2>
-            <p class="section-subtitle fade-in">Recent projects I've worked on</p>
-            
-            <div class="portfolio-filter">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="web">Web Design</button>
-                <button class="filter-btn" data-filter="app">Applications</button>
-                <button class="filter-btn" data-filter="ui">UI/UX</button>
-            </div>
-            
-            <div class="portfolio-grid">
-                <div class="portfolio-item fade-in" data-category="web">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300/00d9ff/ffffff?text=Project+1" alt="Project 1">
-                        <div class="portfolio-overlay">
-                            <h3 class="portfolio-title">E-Commerce Platform</h3>
-                            <p class="portfolio-description">Modern online shopping experience</p>
-                            <div class="project-buttons">
-                                <a href="#" class="btn btn-primary">View Demo</a>
-                                <a href="#" class="btn btn-secondary">View Code</a>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Logo Design</span>
+                                <span class="skill-level">Intermediate</span>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item fade-in" data-category="app">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300/00d9ff/ffffff?text=Project+2" alt="Project 2">
-                        <div class="portfolio-overlay">
-                            <h3 class="portfolio-title">Task Management App</h3>
-                            <p class="portfolio-description">Productivity tool for teams</p>
-                            <div class="project-buttons">
-                                <a href="#" class="btn btn-primary">View Demo</a>
-                                <a href="#" class="btn btn-secondary">View Code</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item fade-in" data-category="ui">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300/00d9ff/ffffff?text=Project+3" alt="Project 3">
-                        <div class="portfolio-overlay">
-                            <h3 class="portfolio-title">Banking Dashboard</h3>
-                            <p class="portfolio-description">Financial management interface</p>
-                            <div class="project-buttons">
-                                <a href="#" class="btn btn-primary">View Demo</a>
-                                <a href="#" class="btn btn-secondary">View Code</a>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- Contact Section -->
-    <section class="contact-section" id="contact">
+    
+
+    <!-- Contact Section 
+    <section id="contact" class="section">
         <div class="container">
-            <h2 class="section-title fade-in">Get In Touch</h2>
-            <p class="section-subtitle fade-in">Feel free to reach out for collaborations</p>
-            
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's discuss your project or opportunity</p>
             <div class="contact-content">
                 <div class="contact-info">
-                    <div class="contact-item fade-in">
+                    <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div class="contact-details">
                             <h3>Email</h3>
-                            <p>nirmal@example.com</p>
+                            <p>ignirmal69@gmail.com</p>
                         </div>
                     </div>
-                    
-                    <div class="contact-item fade-in">
+                    <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-phone"></i>
                         </div>
                         <div class="contact-details">
                             <h3>Phone</h3>
-                            <p>+91 1234567890</p>
+                            <p>+91 84279-97034</p>
                         </div>
                     </div>
-                    
-                    <div class="contact-item fade-in">
+                    <div class="contact-item">
                         <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <i class="fas fa-location-dot"></i>
                         </div>
                         <div class="contact-details">
                             <h3>Location</h3>
-                            <p>Delhi, India</p>
+                            <p>Village Behar Juchh, Patran,<br>Patiala, Punjab, 147105</p>
                         </div>
                     </div>
-                    
-                    <div class="contact-social fade-in">
-                        <h3>Follow Me</h3>
+                    <div class="contact-social">
+                        <h3>Connect With Me</h3>
                         <div class="social-links">
-                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
                             <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
                             <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
-                
-                <div class="contact-form fade-in">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" id="name" class="form-input" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" class="form-input" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="subject" class="form-input" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" class="form-input" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Nirmal Singh. All rights reserved.</p>
-            <p class="footer-subtitle">Crafted with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
+            <p>&copy; 2026 Nirmal Singh. All rights reserved.</p>
+            <p class="footer-subtitle">Computer Lab Incharge & Network Specialist</p>
         </div>
     </footer>
 
@@ -332,11 +296,129 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
-    <!-- Theme Toggle Button -->
-    <button class="theme-toggle" id="themeToggle">
-        <i class="fas fa-moon"></i>
-    </button>
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+        const themeIcon = themeToggle.querySelector('i');
 
-    <script src="script.js"></script>
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('light-theme');
+            if (body.classList.contains('light-theme')) {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        });
+
+        // Mobile Navigation
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Active Navigation Link
+        const sections = document.querySelectorAll('section');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+
+            // Scroll to Top Button
+            const scrollTop = document.getElementById('scrollTop');
+            if (pageYOffset > 500) {
+                scrollTop.classList.add('visible');
+            } else {
+                scrollTop.classList.remove('visible');
+            }
+        });
+
+        // Scroll to Top
+        document.getElementById('scrollTop').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Portfolio Filter
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                portfolioItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.classList.remove('hidden');
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // Contact Form Submission
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            e.target.reset();
+        });
+
+        // Smooth Scroll Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements
+        document.querySelectorAll('.timeline-item, .skill-category, .portfolio-item, .contact-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
+
+
+
+
+
+
