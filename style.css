@@ -453,7 +453,7 @@ body.light-theme .navbar {
     font-size: var(--font-size-md);
     margin-bottom: var(--spacing-lg);
 }
-
+/*
 /* ===================================
    Updated About Section Styles
    =================================== */
@@ -486,7 +486,8 @@ body.light-theme .navbar {
     display: block;
 }
 
-/* Keep or update your placeholder just in case the image fails to load */
+                                                            /*
+ Keep or update your placeholder just in case the image fails to load 
 .image-placeholder {
     width: 280px;
     height: 280px;
@@ -531,7 +532,7 @@ body.light-theme .navbar {
 .highlight-item i {
     font-size: 1.25rem;
 }
-
+                                                                            */
 /* ===================================
    Experience Section
    =================================== */
